@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.App{
+  max-width: 600px;
+  margin: auto;
+}
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  max-width: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: #f1356d;
+}
+.navbar .link{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover{
+  color: #f1356d;
+}
+.contant{
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+}
