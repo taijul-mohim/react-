@@ -1,20 +1,19 @@
 import { useState } from "react";
 
 const Home = () => {
+    
+    let [Blog,setBlog]=useState([
+        {title: "My website",  body:"lorem ipsum.......", auth: "taijul", id: 1},
+        {title: "My Blog",     body:"lorem ipsum.......", auth: "islam", id: 2},
+        {title: "New website", body:"lorem ipsum.......", auth: "mohim", id: 3}
 
-    const [name,setname]=useState('mohim');
-    const [age,setAge]=useState(20);
-    const handClick = () =>{
-    setname ("shuvo");
-    setAge (26);
-    } ;
-   
-   
+    ]);
+
     return ( 
         <div className="home">
-            <h2>HomePAGE</h2>
-            <p>My {name} and my age is {age}</p>
-            <button onClick={handClick}>Click ME</button>
+            
+
+        
             
         </div>
      );
